@@ -1,0 +1,72 @@
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+main {
+    padding-top: 2rem;
+}
+.container {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding: 0 10rem;
+}
+.calcBox {
+    background-color: var(--white-pri);
+    width: fit-content;
+    /* padding: 1rem; */
+    border-radius: var(--border-radius);
+    /* min-width: 10vw; */
+    /* max-width: 50vw; */
+}
+.calcBox .calculator {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.calcBtn {
+    background-color: var(--white-sec);
+    border-radius: var(--border-radius);
+    padding: 1rem ;
+    padding-top: 0;
+}
+.calcBox button {
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: .8rem 0rem;
+    font-size: 1.3rem;
+    border: solid 2px greenyellow;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+.calcBox .calculator input {
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0 1.2rem;
+    outline: none;
+    /* margin:0 1rem; */
+}
+.calcBox .text, .calculator {
+    /* margin: 1rem 0; */
+}
+.calcBox .text h3 {
+    padding: 1rem;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.calcBox h4 {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
