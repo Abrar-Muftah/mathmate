@@ -1,0 +1,12 @@
+.mathSec {
+    border: 1px solid palevioletred;
+    border-radius: var(--border-radius);
+    margin: 2rem 10rem;
+    padding: 1rem;
+}
+.listText {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+.mathSec .container {
+}

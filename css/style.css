@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: initial;
+  font-family: sans-serif;
 }
 
 nav .logo img {
@@ -71,10 +72,10 @@ nav {
 
 
 #introSection {
-  height: 60vh;
-  padding: 2rem 10rem;
+  /* height: 60vh; */
+  padding: 5rem 11rem;
   margin: 0.3rem 0;
-  background-color: red;
+  background-color: rgb(233, 233, 233);
 }
 .underline {
   border-bottom: 1px solid var(--brand-primary);

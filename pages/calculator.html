@@ -7,6 +7,7 @@
     <!-- STYLES  -->
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/calculator.css" />
+    <link rel="stylesheet" href="../css/section.css">
 
     <title>Calculator</title>
   </head>
@@ -26,113 +27,168 @@
       </nav>
     </header>
     <section id="introSection">
-      <div>this is the intro to the content of this page</div>
+      <article>
+        <h1>Calculators</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda cupiditate quisquam iure iste dolorem, ut minima adipisci eaque sequi!
+        </p>
+      </article>
+
     </section>
     <main>
       <section id="calculators">
-        <div class="container">
-          <div class="calcBox">
-            <div class="text">
-              <h3>Addition</h3>
-            </div>
-            <div class="calcBtn">
-              <div class="calculator">
-                <input type="number" name="" id="addition1" /> + <input type="number" name="" id="addition2" /> =
-                <h4 id="additionAns">?</h4>
-              </div>
-              <button id="additionBtn" type="submit">Check</button>
-            </div>
-          </div>
 
-          <div class="calcBox">
-            <div class="text">
-              <h3>Subtraction</h3>
-            </div>
-            <div class="calcBtn">
-              <div class="calculator">
-                <input type="number" name="" id="subtract1" /> - <input type="number" name="" id="subtract2" /> =
-                <h4 id="subtractAns">?</h4>
+        <section class="mathSec" id="0">
+          <h4 class="listText">Simpele Getalen</h4>
+          <div class="container">
+            <div class="calcBox">
+              <div class="text">
+                <h3>Addition</h3>
               </div>
-              <button id="subtractBtn" type="submit">Check</button>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="addition1" /> + <input type="number" name="" id="addition2" /> =
+                  <h4 id="additionAns">?</h4>
+                </div>
+                <button id="additionBtn" type="submit">Check</button>
+              </div>
             </div>
-          </div>
 
-          <div class="calcBox">
-            <div class="text">
-              <h3>Multiplication</h3>
-            </div>
-            <div class="calcBtn">
-              <div class="calculator">
-                <input type="number" name="" id="multiply1" /> x <input type="number" name="" id="multiply2" /> =
-                <h4 id="multiplyAns">?</h4>
+            <div class="calcBox">
+              <div class="text">
+                <h3>Subtraction</h3>
               </div>
-              <button id="multiplyBtn" type="submit">Check</button>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="subtract1" /> - <input type="number" name="" id="subtract2" /> =
+                  <h4 id="subtractAns">?</h4>
+                </div>
+                <button id="subtractBtn" type="submit">Check</button>
+              </div>
             </div>
-          </div>
 
-          <div class="calcBox">
-            <div class="text">
-              <h3>Division</h3>
-            </div>
-            <div class="calcBtn">
-              <div class="calculator">
-                <input type="number" name="" id="division1" /> ÷ <input type="number" name="" id="division2" /> =
-                <h4 id="divisionAns">?</h4>
+            <div class="calcBox">
+              <div class="text">
+                <h3>Multiplication</h3>
               </div>
-              <button id="divisionBtn" type="submit">Check</button>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="multiply1" /> x <input type="number" name="" id="multiply2" /> =
+                  <h4 id="multiplyAns">?</h4>
+                </div>
+                <button id="multiplyBtn" type="submit">Check</button>
+              </div>
             </div>
-          </div>
 
-          <div class="calcBox">
-            <div class="text">
-              <h3>Percantage</h3>
-            </div>
-            <div class="calcBtn">
-              <div class="calculator">
-                <input type="number" name="" id="percentage1" /> uit <input type="number" name="" placeholder="%" id="percentage2" /> =
-                <h4 id="percentageAns">?</h4>
+            <div class="calcBox">
+              <div class="text">
+                <h3>Division</h3>
               </div>
-              <button id="percentageBtn" type="submit">Check</button>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="division1" /> ÷ <input type="number" name="" id="division2" /> =
+                  <h4 id="divisionAns">?</h4>
+                </div>
+                <button id="divisionBtn" type="submit">Check</button>
+              </div>
             </div>
           </div>
+        </section>
+        <section class="mathSec" id="1">
+          <h4 class="listText">Eenvoudig Reksen</h4>
+          <div class="container">
+            <div class="calcBox">
+              <div class="text">
+                <h3>Percantage</h3>
+              </div>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="percentage1" /> uit <input type="number" name="" placeholder="%" id="percentage2" /> =
+                  <h4 id="percentageAns">?</h4>
+                </div>
+                <button id="percentageBtn" type="submit">Check</button>
+              </div>
+            </div>
+    
+            <div class="calcBox">
+              <div class="text">
+                <h3>Power Calculator</h3>
+              </div>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="power1" /> ^ <input type="number" name="" id="power2" /> =
+                  <h4 id="powerAns">?</h4>
+                </div>
+                <button id="powerBtn" type="submit">Check</button>
+              </div>
+            </div>
+    
+            <div class="calcBox">
+              <div class="text">
+                <h3>The Rest value</h3>
+              </div>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="rest1" /> rest <input type="number" name="" id="rest2" /> =
+                  <h4 id="restAns">?</h4>
+                </div>
+                <button id="restBtn" type="submit">Check</button>
+              </div>
+            </div>
+    
+            <div class="calcBox">
+              <div class="text">
+                <h3>Even Of Oneven</h3>
+              </div>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="evenoneven" /> Φ
+                  <h4 id="evenAns">?</h4>
+                </div>
+                <button id="evenBtn" type="submit">Check</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mathSec" id="2">
+          <h4 class="listText">Complexe Reksen</h4>
+          <div class="container">
 
-          <div class="calcBox">
-            <div class="text">
-              <h3>Power Calculator</h3>
-            </div>
-            <div class="calcBtn">
-              <div class="calculator">
-                <input type="number" name="" id="power1" /> ^ <input type="number" name="" id="power2" /> =
-                <h4 id="powerAns">?</h4>
+            <div class="calcBox">
+              <div class="text">
+                <h3>Fibonacci</h3>
               </div>
-              <button id="powerBtn" type="submit">Check</button>
-            </div>
-          </div>
-          <div class="calcBox">
-            <div class="text">
-              <h3>The Rest value</h3>
-            </div>
-            <div class="calcBtn">
-              <div class="calculator">
-                <input type="number" name="" id="rest1" /> rest <input type="number" name="" id="rest2" /> =
-                <h4 id="restAns">?</h4>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="fibonacci1" /> Φ
+                  <h4 id="fibonacciAns"></h4>
+                </div>
+                <button id="fibonacciBtn" type="submit">Check</button>
               </div>
-              <button id="restBtn" type="submit">Check</button>
             </div>
+    
           </div>
-          <div class="calcBox">
-            <div class="text">
-              <h3>Fibonacci</h3>
-            </div>
-            <div class="calcBtn">
-              <div class="calculator">
-                <input type="number" name="" id="fibonacci1" /> Φ
-                <h4 id="fibonacciAns">?</h4>
+        </section>
+        <section id="3" class="mathSec">
+          <h4 class="listText">Omrekenen</h4>
+          <div class="container">
+
+            <div class="calcBox">
+              <div class="text">
+                <h3>Het Roman cijfer</h3>
               </div>
-              <button id="fibonacciBtn" type="submit">Check</button>
+              <div class="calcBtn">
+                <div class="calculator">
+                  <input type="number" name="" id="romanizer1" /> 𝑥
+                  <h4 id="romanizerAns">?</h4>
+                </div>
+                <button id="romanizerBtn" type="submit">Check</button>
+              </div>
             </div>
+
           </div>
-        </div>
+        </section>
+   
       </section>
     </main>
     <script src="../js/main.js"></script>
